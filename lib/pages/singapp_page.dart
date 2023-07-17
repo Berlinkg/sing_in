@@ -14,7 +14,7 @@ class SingApp extends StatelessWidget {
         width: double.infinity,
         decoration: const BoxDecoration(
           image: DecorationImage(
-              image: AssetImage('lib/image/2.jpg'), fit: BoxFit.cover),
+              image: AssetImage('lib/image/1.jpg'), fit: BoxFit.cover),
         ),
         child: SingleChildScrollView(
           child: Container(
@@ -52,6 +52,7 @@ class SingApp extends StatelessWidget {
                             color: Colors.white,
                             borderRadius: BorderRadius.circular(10)),
                         child: TextFormField(
+                          obscureText: false,
                           decoration: const InputDecoration(
                             border: InputBorder.none,
                             hintText: "Email@.com",
